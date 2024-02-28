@@ -1,0 +1,18 @@
+.App{
+  display: flex;
+  height: 100vh;
+  border-radius: 30px;
+}
+
+.left-container{
+  flex:1;
+  background: linear-gradient(to bottom, #FFD54F, #FFA726);
+  filter: brightness(100%)
+}
+
+.right-container{
+  flex:5;
+  background-color: white;
+  /* background: linear-gradient(to bottom, hsl(39, 100%, 95%), hsl(39, 100%, 90%)); */
+  
+}

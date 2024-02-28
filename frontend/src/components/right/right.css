@@ -1,0 +1,72 @@
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px 30px;
+}
+
+.right-bar{
+    flex: 1;
+    background-color: aliceblue;
+    display: flex;
+    text-align: center;
+}
+
+.X-distribution-container{
+    flex: 5;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.X{
+    flex:1;
+    color: red;
+}
+
+.X-distribution{
+    flex:4;
+    display: flex;
+    background-color: aqua;
+    
+}
+
+.X-distribution-dropdown{
+    align-self: center;
+    margin-right: 30px;
+}
+
+.X-distribution-parameters{
+    align-self: center;
+}
+
+
+
+
+.X-click-container{
+    flex: 1
+}
+
+
+.right-graph-container{
+    flex: 5;
+}
+
+.X{
+    flex:1
+}
+.X-dist{
+    flex:1
+}
+
+.NPerClick-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NPerClick-button{
+    flex:1
+}
